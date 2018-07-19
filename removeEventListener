@@ -1,0 +1,12 @@
+//remove a handler. 
+
+
+var button = document.querySelector('button');
+
+function once(){
+  console.log('done');
+  alert('done')
+  button.removeEventListener('click', once);
+
+}
+button.addEventListener('click', once);
