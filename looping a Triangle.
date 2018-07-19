@@ -1,0 +1,16 @@
+
+//here is my solution.
+//using nasted for loop
+function printStar(){
+  var output = ""; //should be outside for loop
+  for(i = 0; i < 7; i++){
+    for(j = 0; j < i; j++){
+      output += "*";
+    }
+    output += "<br>"; //enter line should be outside nasted for loop
+  }
+  //document.getElementById("demo").innerHTML = output;
+  document.write(output);
+
+  //for (var line = "#"; line.length < 8; line += "#")  console.log(line); // the eloquent javascript soltution. 
+}
