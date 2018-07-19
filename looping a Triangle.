@@ -12,5 +12,7 @@ function printStar(){
   //document.getElementById("demo").innerHTML = output;
   document.write(output);
 
-  //for (var line = "#"; line.length < 8; line += "#")  console.log(line); // the eloquent javascript soltution. 
+  //for (var line = "#"; line.length < 8; line += "#")  console.log(line); 
+  // the eloquent javascript soltution. 
+  // if I wanted to print on document? using document.write insted console.log doesn't look pryramid. 
 }
